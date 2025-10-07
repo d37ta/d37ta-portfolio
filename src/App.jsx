@@ -16,16 +16,6 @@ export default function D37TAPortfolioLayout() {
             <div className="mt-10 w-20 h-20 mx-auto bg-gradient-to-r from-sky-400 to-purple-400 rounded-full blur-lg opacity-70" />
           </section>
 
-          <div className="w-screen h-screen flex items-center justify-center bg-black">
-            <video
-              src="/intro.mp4"
-              autoPlay
-              loop
-              muted
-              playsInline
-              className="w-full h-full object-cover"
-            />
-          </div>
 
           {/* About */}
           <section className="grid grid-cols-2 gap-10">
@@ -59,6 +49,16 @@ export default function D37TAPortfolioLayout() {
               <div className="space-y-4">
                 <div className="text-4xl">Δ</div>
                 <div className="text-2xl tracking-widest">D37TA</div>
+                <div className="w-screen h-screen flex items-center justify-center bg-black">
+                  <video
+                    src="/intro.mp4"
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="w-full h-full object-cover"
+                  />
+                </div>
               </div>
             </div>
             <div>
