@@ -4,6 +4,7 @@ import "./index.css";
 
 export default function D37TAPortfolioLayout() {
   return (
+
     <div className="min-h-screen w-full bg-gradient-to-b from-sky-200 via-purple-200 to-gray-100 text-gray-800">
       <div className="mx-auto max-w-6xl p-6 md:p-10 space-y-12">
 
@@ -14,6 +15,17 @@ export default function D37TAPortfolioLayout() {
             <p className="text-lg mt-4 italic text-gray-600">THE BEAUTY OF DIGITAL TRANSFORMATION</p>
             <div className="mt-10 w-20 h-20 mx-auto bg-gradient-to-r from-sky-400 to-purple-400 rounded-full blur-lg opacity-70" />
           </section>
+
+          <div className="w-screen h-screen flex items-center justify-center bg-black">
+            <video
+              src="/intro.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="w-full h-full object-cover"
+            />
+          </div>
 
           {/* About */}
           <section className="grid grid-cols-2 gap-10">
@@ -34,18 +46,8 @@ export default function D37TAPortfolioLayout() {
           {/* Key Art */}
           <section className="text-center py-10">
             <h2 className="text-3xl mb-6 font-semibold">Key Art — Light Reborn</h2>
-            <div className="relative w-screen h-screen overflow-hidden bg-black">
-              <video
-                src="/intro.mp4"
-                autoPlay
-                loop
-                muted
-                playsInline
-                className="w-full h-full object-cover"
-              />
-            </div>
             <div className="w-full h-96 bg-gradient-to-tr from-blue-200 to-purple-300 rounded-2xl flex items-center justify-center text-white text-2xl">
-              
+
             </div>
             <p className="mt-4 text-gray-600 italic">“A digital rebirth through the spectrum of data.”</p>
           </section>
