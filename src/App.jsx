@@ -35,7 +35,14 @@ export default function D37TAPortfolioLayout() {
           <section className="text-center py-10">
             <h2 className="text-3xl mb-6 font-semibold">Key Art — Light Reborn</h2>
             <div className="w-full h-96 bg-gradient-to-tr from-blue-200 to-purple-300 rounded-2xl flex items-center justify-center text-white text-2xl">
-              Artwork Placeholder
+              <video
+                src="/intro.mp4"
+                autoPlay
+                loop
+                muted
+                playsInline
+                className="w-full h-full object-cover"
+              />
             </div>
             <p className="mt-4 text-gray-600 italic">“A digital rebirth through the spectrum of data.”</p>
           </section>
