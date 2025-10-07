@@ -51,7 +51,7 @@ export default function D37TAPortfolioLayout() {
                 <div className="text-2xl tracking-widest">D37TA</div>
                 <div className="w-screen h-screen flex items-center justify-center bg-black">
                   <video
-                    src="/intro.mp4"
+                    src="/d37ta_intro_720.mp4"
                     autoPlay
                     loop
                     muted
