@@ -51,13 +51,13 @@ export default function D37TAPortfolioLayout() {
                 <div className="text-2xl tracking-widest">D37TA</div>
                 <div className="w-screen h-screen flex items-center justify-center bg-black">
                   <video
-                    src="/d37ta_intro_720.mp4"
                     autoPlay
                     loop
                     muted
                     playsInline
-                    className="w-full h-full object-cover"
-                  />
+                    className="w-full h-full object-cover">
+                    <source src={`${import.meta.env.BASE_URL}d37ta_intro_720.mp4`} type="video/mp4" />
+                  </video>
                 </div>
               </div>
             </div>
